@@ -13,6 +13,7 @@
 		6C95DA7D2514E93000F465BC /* safeAcctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95DA7B2514E93000F465BC /* safeAcctionViewController.swift */; };
 		6CEDB9B32514F975009AEA76 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDB9B22514F975009AEA76 /* profileViewController.swift */; };
 		6CEDB9B525150413009AEA76 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDB9B425150413009AEA76 /* MapViewController.swift */; };
+		6CEDB9B725150FE4009AEA76 /* roundButten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDB9B625150FE4009AEA76 /* roundButten.swift */; };
 		9BDEA8642E6DB4E8AA829826 /* Pods_NIBM_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C625123FB300D44593 /* SignUpViewController.swift */; };
 		AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C825123FE200D44593 /* LoginViewController.swift */; };
@@ -54,6 +55,7 @@
 		6C95DA7B2514E93000F465BC /* safeAcctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = safeAcctionViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/safeAcctionViewController.swift"; sourceTree = "<absolute>"; };
 		6CEDB9B22514F975009AEA76 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		6CEDB9B425150413009AEA76 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/MapViewController.swift"; sourceTree = "<absolute>"; };
+		6CEDB9B625150FE4009AEA76 /* roundButten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButten.swift; sourceTree = "<group>"; };
 		82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19_NIBM_COVID19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5F98C625123FB300D44593 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC5F98C825123FE200D44593 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				6CEDB9B425150413009AEA76 /* MapViewController.swift */,
 				6C95DA782514D9DB00F465BC /* HomePageViewController.swift */,
 				6CEDB9B22514F975009AEA76 /* profileViewController.swift */,
+				6CEDB9B625150FE4009AEA76 /* roundButten.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				6CEDB9B525150413009AEA76 /* MapViewController.swift in Sources */,
 				ACA11932250F955B003E7F1B /* NIBM_COVID19.xcdatamodeld in Sources */,
 				6C95DA7D2514E93000F465BC /* safeAcctionViewController.swift in Sources */,
+				6CEDB9B725150FE4009AEA76 /* roundButten.swift in Sources */,
 				AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */,
 				AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */,
 				AC5F98CB25125ADE00D44593 /* SurveyViewController.swift in Sources */,
