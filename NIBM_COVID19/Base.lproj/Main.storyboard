@@ -64,7 +64,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.52492727384388449" green="0.52516259517766495" blue="0.52255269022027739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.52544265985488892" green="0.52559703588485718" blue="0.52134126424789429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Yca-DN-QF8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="0Oq-eA-Ef9"/>
                             <constraint firstItem="OlJ-WI-QaZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="6Tr-e0-xKl"/>
@@ -134,7 +134,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkg-ch-9Sj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pkg-ch-9Sj" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="360" width="325" height="45"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -146,7 +146,7 @@
                                     <action selector="SignUp:" destination="OjX-DN-Dkx" eventType="touchUpInside" id="t3q-Kr-lHv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgK-iE-bkw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgK-iE-bkw" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="602" width="325" height="45"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -186,7 +186,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="D2Y-MU-Lih" firstAttribute="leading" secondItem="Jes-Aq-9ke" secondAttribute="leading" constant="25" id="1IH-PZ-xVO"/>
                             <constraint firstItem="dgK-iE-bkw" firstAttribute="leading" secondItem="Jes-Aq-9ke" secondAttribute="leading" constant="25" id="34M-G6-YFO"/>
@@ -254,7 +254,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3X-NA-3GU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3X-NA-3GU" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="428" width="325" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -266,7 +266,7 @@
                                     <action selector="getuserData:" destination="cZZ-Vy-agw" eventType="touchUpInside" id="KtC-sE-87V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcW-yK-krt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcW-yK-krt" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="358" width="325" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -278,7 +278,7 @@
                                     <action selector="getuserData:" destination="cZZ-Vy-agw" eventType="touchUpInside" id="063-bn-uRa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Eh-S2-SoH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Eh-S2-SoH" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="250" y="577" width="100" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -291,7 +291,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="1Eh-S2-SoH" firstAttribute="leading" secondItem="wgJ-8r-cN2" secondAttribute="leading" constant="250" id="2Sw-OT-OEc"/>
                             <constraint firstItem="mcW-yK-krt" firstAttribute="leading" secondItem="wgJ-8r-cN2" secondAttribute="leading" constant="25" id="4QX-JG-idp"/>
@@ -352,7 +352,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X48-iQ-9Pb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X48-iQ-9Pb" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="141" y="597" width="92" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -363,7 +363,7 @@
                                     <segue destination="6CJ-P9-xQd" kind="showDetail" id="aNg-qx-PbD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEI-ud-aXa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEI-ud-aXa" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="261" y="597" width="92" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -375,7 +375,7 @@
                                     <segue destination="bVb-BY-CqC" kind="showDetail" id="lC8-xv-keq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOg-20-sdP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOg-20-sdP" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="22" y="597" width="66" height="50"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -388,7 +388,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mYp-O2-JbO" firstAttribute="bottom" secondItem="IOg-20-sdP" secondAttribute="bottom" constant="20" id="0YF-ud-XbO"/>
                             <constraint firstItem="mYp-O2-JbO" firstAttribute="trailing" secondItem="X48-iQ-9Pb" secondAttribute="trailing" constant="142" id="6BW-C4-iwO"/>
@@ -439,8 +439,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCd-KV-OZ0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCd-KV-OZ0" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="543" width="325" height="40"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="d6h-lY-yj7"/>
                                 </constraints>
@@ -449,8 +450,9 @@
                                     <action selector="backbuttenPressed:" destination="6CJ-P9-xQd" eventType="touchUpInside" id="oTW-iR-HZ8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5m-JJ-Ail">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5m-JJ-Ail" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="309" y="583" width="50" height="40"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="Dv0-ad-AtZ"/>
                                     <constraint firstAttribute="height" constant="40" id="PTQ-Jh-9gM"/>
@@ -460,8 +462,9 @@
                                     <segue destination="76Z-og-iRs" kind="show" id="xWT-Kf-fkJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mj6-Ja-D5G">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mj6-Ja-D5G" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="583" width="61" height="40"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="0t8-62-MBr"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="F0e-K9-tiZ"/>
@@ -474,7 +477,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lqr-fT-Jwd" firstAttribute="bottom" secondItem="qCd-KV-OZ0" secondAttribute="bottom" constant="84" id="0pC-lA-FbN"/>
                             <constraint firstItem="Lqr-fT-Jwd" firstAttribute="trailing" secondItem="OMz-Qv-9At" secondAttribute="trailing" constant="113" id="BqE-R2-H4a"/>
@@ -541,7 +544,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL4-yI-cmA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL4-yI-cmA" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="40" y="617" width="295" height="30"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -552,7 +555,7 @@
                                     <action selector="btnBackPress:" destination="Erv-wb-AmV" eventType="touchUpInside" id="fgp-32-Mv9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxZ-QT-nVf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxZ-QT-nVf" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="40" y="570" width="295" height="30"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -571,7 +574,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Wgl-Ea-bBd" firstAttribute="trailing" secondItem="i4U-HR-MQe" secondAttribute="trailing" constant="25" id="0uq-Ui-MHq"/>
                             <constraint firstItem="Wgl-Ea-bBd" firstAttribute="trailing" secondItem="rL4-yI-cmA" secondAttribute="trailing" constant="40" id="31V-Dh-3Ay"/>
@@ -652,7 +655,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="avD-jK-N7K" firstAttribute="top" secondItem="K0r-RJ-C2I" secondAttribute="top" constant="35" id="2E5-Z6-KZO"/>
                             <constraint firstItem="CiU-Ru-cGX" firstAttribute="leading" secondItem="K0r-RJ-C2I" secondAttribute="leading" constant="260" id="Bdr-Kq-L8x"/>
@@ -819,7 +822,7 @@
                                     <segue destination="OjX-DN-Dkx" kind="show" id="YfN-KJ-mhf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ2-dZ-5v3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ2-dZ-5v3" customClass="BnbButton" customModule="NIBM_COVID19" customModuleProvider="target">
                                 <rect key="frame" x="25" y="230" width="325" height="45"/>
                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -832,7 +835,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.52492727380000004" green="0.52516259519999997" blue="0.52255269019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="q6u-2e-Aah" firstAttribute="leading" secondItem="3h0-yU-rF6" secondAttribute="leading" constant="25" id="0bl-6t-4kY"/>
                             <constraint firstItem="1Z1-xm-Krb" firstAttribute="leading" secondItem="3h0-yU-rF6" secondAttribute="leading" constant="35" id="4HR-Xd-M6n"/>
@@ -886,8 +889,8 @@
         <image name="profile" width="218" height="232"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Hj0-cm-dGG"/>
-        <segue reference="oJn-2B-1v6"/>
+        <segue reference="AW2-UD-pd4"/>
+        <segue reference="aNg-qx-PbD"/>
         <segue reference="TxB-yv-b9u"/>
         <segue reference="YfN-KJ-mhf"/>
         <segue reference="JGr-fI-tpx"/>
