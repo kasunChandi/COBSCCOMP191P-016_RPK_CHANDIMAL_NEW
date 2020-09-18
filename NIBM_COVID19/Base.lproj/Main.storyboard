@@ -616,12 +616,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clean Yourself" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfX-My-wLn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clean Yourself" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfX-My-wLn">
                                 <rect key="frame" x="25" y="352" width="325" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Wlc-PG-cY7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -635,7 +635,7 @@
                                     <action selector="buttenBackpressed:" destination="bVb-BY-CqC" eventType="touchUpInside" id="hqR-y7-T8C"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="avD-jK-N7K">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="avD-jK-N7K">
                                 <rect key="frame" x="60" y="55" width="255" height="157"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="157" id="Vlx-FS-ax0"/>
@@ -695,10 +695,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqz-JU-ZRL">
+                                <rect key="frame" x="164" y="551" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VCU-fo-WZ8"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="6CJ-P9-xQd" kind="showDetail" id="oJn-2B-1v6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uqz-JU-ZRL" firstAttribute="leading" secondItem="nwd-0a-r4w" secondAttribute="leading" constant="164" id="5Jo-Ks-g26"/>
+                            <constraint firstItem="nwd-0a-r4w" firstAttribute="trailing" secondItem="uqz-JU-ZRL" secondAttribute="trailing" constant="165" id="Mrh-2F-xtY"/>
                             <constraint firstItem="tOq-YQ-gKY" firstAttribute="top" secondItem="nwd-0a-r4w" secondAttribute="top" constant="35" id="SJW-9n-87T"/>
+                            <constraint firstItem="nwd-0a-r4w" firstAttribute="bottom" secondItem="uqz-JU-ZRL" secondAttribute="bottom" constant="86" id="nH1-ff-8ia"/>
                             <constraint firstItem="tOq-YQ-gKY" firstAttribute="leading" secondItem="nwd-0a-r4w" secondAttribute="leading" constant="135" id="uny-GH-aNx"/>
                             <constraint firstItem="nwd-0a-r4w" firstAttribute="trailing" secondItem="tOq-YQ-gKY" secondAttribute="trailing" constant="65" id="vny-ZU-42z"/>
                         </constraints>
@@ -707,7 +720,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLb-EG-ju4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5721" y="1333"/>
+            <point key="canvasLocation" x="5720.8000000000002" y="1332.6836581709147"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ds9-Ys-Qvv">
@@ -730,13 +743,26 @@
                                 <rect key="frame" x="23" y="180" width="150" height="30"/>
                                 <state key="normal" title="Contact Us/ About Us"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3L7-vI-asi">
+                                <rect key="frame" x="164" y="572" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9lk-Hh-NXD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="6CJ-P9-xQd" kind="showDetail" id="rxp-Rs-mGI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="F5y-Ja-LlC" firstAttribute="bottom" secondItem="3L7-vI-asi" secondAttribute="bottom" constant="65" id="Blv-Ti-qY1"/>
                             <constraint firstItem="NXQ-vc-pUx" firstAttribute="top" secondItem="F5y-Ja-LlC" secondAttribute="top" constant="50" id="GMX-d9-DAd"/>
                             <constraint firstItem="QAV-Zt-Y92" firstAttribute="top" secondItem="NXQ-vc-pUx" secondAttribute="bottom" constant="81" id="Htk-0E-CYv"/>
                             <constraint firstItem="NXQ-vc-pUx" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="100" id="UHJ-RQ-WMN"/>
                             <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="NXQ-vc-pUx" secondAttribute="trailing" constant="100" id="VtT-QZ-xB6"/>
+                            <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="3L7-vI-asi" secondAttribute="trailing" constant="165" id="kBX-gP-Ywp"/>
+                            <constraint firstItem="3L7-vI-asi" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="164" id="klV-7X-9Jl"/>
                             <constraint firstItem="QAV-Zt-Y92" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="23" id="qo3-HJ-irm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="F5y-Ja-LlC"/>
@@ -861,8 +887,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Hj0-cm-dGG"/>
+        <segue reference="oJn-2B-1v6"/>
         <segue reference="TxB-yv-b9u"/>
-        <segue reference="mYR-6Z-fHC"/>
+        <segue reference="YfN-KJ-mhf"/>
         <segue reference="JGr-fI-tpx"/>
     </inferredMetricsTieBreakers>
 </document>
