@@ -63,6 +63,39 @@ showImage()
         SurveyImages.image = UIImage(named: "icon\(que).png")
         QuizLbl.text = quizlist[que][0]
     }
+    
+    
+    
+    
+    @IBAction func BtnFinishPress(_ sender: UIButton) {
+        
+        var usStatus = "Good"
+        if total > 2{
+            usStatus = "Good"
+            
+        }
+        if total == 2 {
+            usStatus = "Meduim"
+        }
+        if total < 2{
+            usStatus = "In Risk"
+        }
+        self.performSegue(withIdentifier: "statusSeg", sender: usStatus)
+        
+        
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destinaton = segue.destination as? HomePageViewController{
+            if let userStatusData =  sender as? String{
+               
+                destinaton.userStstusData = userStatusData
+            }
+        }
+        
+    }
+    
     /*
      // MARK: - Navigation
      

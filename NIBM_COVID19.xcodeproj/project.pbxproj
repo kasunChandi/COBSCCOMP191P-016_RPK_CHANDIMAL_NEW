@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CDB6659BF0732BAD90F82DC /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */; };
 		6C95DA772514CB4000F465BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C95DA762514CB4000F465BC /* GoogleService-Info.plist */; };
+		6C95DA792514D9DB00F465BC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95DA782514D9DB00F465BC /* HomePageViewController.swift */; };
 		9BDEA8642E6DB4E8AA829826 /* Pods_NIBM_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF190596136852D09CFD0D13 /* Pods_NIBM_COVID19.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C625123FB300D44593 /* SignUpViewController.swift */; };
 		AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98C825123FE200D44593 /* LoginViewController.swift */; };
@@ -46,6 +47,7 @@
 		37344DEC38DB0C9D0612E6A6 /* Pods-NIBM_COVID19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19Tests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19Tests/Pods-NIBM_COVID19Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A28C2CD77E4EDF908477E1E /* Pods_NIBM_COVID19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C95DA762514CB4000F465BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C95DA782514D9DB00F465BC /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/HomePageViewController.swift"; sourceTree = "<absolute>"; };
 		82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19_NIBM_COVID19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5F98C625123FB300D44593 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC5F98C825123FE200D44593 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				AC5F98C625123FB300D44593 /* SignUpViewController.swift */,
 				AC5F98C825123FE200D44593 /* LoginViewController.swift */,
 				AC5F98CA25125ADE00D44593 /* SurveyViewController.swift */,
+				6C95DA782514D9DB00F465BC /* HomePageViewController.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA1192C250F955B003E7F1B /* ViewController.swift in Sources */,
+				6C95DA792514D9DB00F465BC /* HomePageViewController.swift in Sources */,
 				ACA11932250F955B003E7F1B /* NIBM_COVID19.xcdatamodeld in Sources */,
 				AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */,
 				AC5F98C925123FE200D44593 /* LoginViewController.swift in Sources */,
