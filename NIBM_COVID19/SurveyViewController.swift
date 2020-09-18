@@ -12,7 +12,7 @@ class SurveyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-showImage()
+DisImage()
         // Do any additional setup after loading the view.
     }
     
@@ -56,10 +56,10 @@ showImage()
         if que + 1 < quizlist.count{
             que += 1
         }
-        showImage()
+        DisImage()
     }
     
-    func showImage(){
+    func DisImage(){
         SurveyImages.image = UIImage(named: "icon\(que).png")
         QuizLbl.text = quizlist[que][0]
     }

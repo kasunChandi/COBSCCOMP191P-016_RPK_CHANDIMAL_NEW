@@ -28,22 +28,45 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var Password: UITextField!
     
-    
+      var ref: DatabaseReference!
     @IBAction func SignUp(_ sender: UIButton) {
         
         if let email = Email.text, let password = Password.text {
             
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-             
+                
                 if let e = error {
                     print(e)
                 }
                 else{
-                   self.performSegue(withIdentifier: "signupSeg", sender: self)
+                    let userId = authResult?.user.uid
+                    let fName = self.FirstName.text
+                    let lName = self.LastName.text
+                    let emailID = self.Email.text
+                    let uRole = self.Role.text
+                    
+                    self.ref = Database.database().reference()
+                    
+                    self.ref.child("users").child(userId ?? "").setValue(["username": fName,"lastname": lName,"email": emailID,"role": uRole])
+                    
+                    self.performSegue(withIdentifier: "SignupSegway", sender: self)
                     print("Success")
                 }// ...
             }
         }
+//        if let email = Email.text, let password = Password.text {
+//
+//            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+//
+//                if let e = error {
+//                    print(e)
+//                }
+//                else{
+//                   self.performSegue(withIdentifier: "signupSeg", sender: self)
+//                    print("Success")
+//                }// ...
+//            }
+//        }
     }
     /*
      @IBOutlet weak var Email: UITextField!
