@@ -39,7 +39,7 @@ class SignUpViewController: UIViewController {
                     print(e)
                 }
                 else{
-//                    self.performSegue(withIdentifier: "SignupSegway", sender: self)
+                   self.performSegue(withIdentifier: "signupSeg", sender: self)
                     print("Success")
                 }// ...
             }
