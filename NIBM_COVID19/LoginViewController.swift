@@ -45,6 +45,7 @@ class LoginViewController: UIViewController {
                 // ...
             }
                 else {
+                    
                     self.performSegue(withIdentifier: "loginSeg" , sender: self)
                     print("login success")
                     
