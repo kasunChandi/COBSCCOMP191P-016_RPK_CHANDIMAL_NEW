@@ -34,11 +34,27 @@ class LoginViewController: UIViewController {
             
                 if let e = error {
                     print(e)
+                    
+                    let alert = UIAlertController(title: "Login Fail", message: "Invalid username and password.", preferredStyle: UIAlertController.Style.alert)
+                    
+                    // add an action (button)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                    
+                    // show the alert
+                    self.present(alert, animated: true, completion: nil)
                 // ...
             }
                 else {
                     self.performSegue(withIdentifier: "loginSeg" , sender: self)
                     print("login success")
+                    
+                    let alert = UIAlertController(title: "Login Success", message: "Please answer this question.", preferredStyle: UIAlertController.Style.alert)
+                    
+                    // add an action (button)
+                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                    
+                    // show the alert
+                    self.present(alert, animated: true, completion: nil)
                     
                             }
             }
