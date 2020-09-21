@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3CDB6659BF0732BAD90F82DC /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CA209A5645953B7FE1D657 /* Pods_NIBM_COVID19_NIBM_COVID19UITests.framework */; };
+		6C6648912518DC800013B1A9 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6648902518DC7D0013B1A9 /* FaceIDViewController.swift */; };
+		6C6648932518E5050013B1A9 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6648922518E5050013B1A9 /* settingsViewController.swift */; };
 		6C95DA772514CB4000F465BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C95DA762514CB4000F465BC /* GoogleService-Info.plist */; };
 		6C95DA792514D9DB00F465BC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95DA782514D9DB00F465BC /* HomePageViewController.swift */; };
 		6C95DA7D2514E93000F465BC /* safeAcctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C95DA7B2514E93000F465BC /* safeAcctionViewController.swift */; };
@@ -50,6 +52,8 @@
 		088454F0543F834167252389 /* Pods-NIBM_COVID19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19Tests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19Tests/Pods-NIBM_COVID19Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		37344DEC38DB0C9D0612E6A6 /* Pods-NIBM_COVID19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_COVID19Tests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_COVID19Tests/Pods-NIBM_COVID19Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4A28C2CD77E4EDF908477E1E /* Pods_NIBM_COVID19Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_COVID19Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6648902518DC7D0013B1A9 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceIDViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/FaceIDViewController.swift"; sourceTree = "<absolute>"; };
+		6C6648922518E5050013B1A9 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		6C95DA762514CB4000F465BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6C95DA782514D9DB00F465BC /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/HomePageViewController.swift"; sourceTree = "<absolute>"; };
 		6C95DA7B2514E93000F465BC /* safeAcctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = safeAcctionViewController.swift; path = "/Users/digital-06/Desktop/COBSCCOMP191P-016_RP_Kasun_Chandimal/COBSCCOMP191P-016_RPK_CHANDIMAL_NEW/NIBM_COVID19/safeAcctionViewController.swift"; sourceTree = "<absolute>"; };
@@ -155,11 +159,13 @@
 				AC5F98C625123FB300D44593 /* SignUpViewController.swift */,
 				6C95DA7B2514E93000F465BC /* safeAcctionViewController.swift */,
 				AC5F98C825123FE200D44593 /* LoginViewController.swift */,
+				6C6648902518DC7D0013B1A9 /* FaceIDViewController.swift */,
 				AC5F98CA25125ADE00D44593 /* SurveyViewController.swift */,
 				6CEDB9B425150413009AEA76 /* MapViewController.swift */,
 				6C95DA782514D9DB00F465BC /* HomePageViewController.swift */,
 				6CEDB9B22514F975009AEA76 /* profileViewController.swift */,
 				6CEDB9B625150FE4009AEA76 /* roundButten.swift */,
+				6C6648922518E5050013B1A9 /* settingsViewController.swift */,
 			);
 			path = NIBM_COVID19;
 			sourceTree = "<group>";
@@ -439,7 +445,9 @@
 				6C95DA792514D9DB00F465BC /* HomePageViewController.swift in Sources */,
 				6CEDB9B32514F975009AEA76 /* profileViewController.swift in Sources */,
 				6CEDB9B525150413009AEA76 /* MapViewController.swift in Sources */,
+				6C6648912518DC800013B1A9 /* FaceIDViewController.swift in Sources */,
 				ACA11932250F955B003E7F1B /* NIBM_COVID19.xcdatamodeld in Sources */,
+				6C6648932518E5050013B1A9 /* settingsViewController.swift in Sources */,
 				6C95DA7D2514E93000F465BC /* safeAcctionViewController.swift in Sources */,
 				6CEDB9B725150FE4009AEA76 /* roundButten.swift in Sources */,
 				AC5F98C725123FB300D44593 /* SignUpViewController.swift in Sources */,

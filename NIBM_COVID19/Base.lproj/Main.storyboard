@@ -498,7 +498,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tca-mm-FVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3932" y="865.81709145427294"/>
+            <point key="canvasLocation" x="3826" y="850"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="LVv-cZ-ARY">
@@ -681,11 +681,11 @@
             </objects>
             <point key="canvasLocation" x="4888.8000000000002" y="-177.66116941529236"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="HlD-op-22w">
             <objects>
-                <viewController id="76Z-og-iRs" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="96O-dW-NRF">
+                <viewController id="76Z-og-iRs" customClass="settingsViewController" customModule="NIBM_COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="96O-dW-NRF" customClass="Sett">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -703,9 +703,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="VCU-fo-WZ8"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="6CJ-P9-xQd" kind="showDetail" id="oJn-2B-1v6"/>
+                                    <action selector="backtoHomeBT:" destination="76Z-og-iRs" eventType="touchUpInside" id="04q-P4-oXA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -725,10 +725,10 @@
             </objects>
             <point key="canvasLocation" x="5720.8000000000002" y="1332.6836581709147"/>
         </scene>
-        <!--View Controller-->
+        <!--FaceID View Controller-->
         <scene sceneID="Ds9-Ys-Qvv">
             <objects>
-                <viewController id="chS-Mf-Sgm" sceneMemberID="viewController">
+                <viewController id="chS-Mf-Sgm" customClass="FaceIDViewController" customModule="NIBM_COVID19" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z0o-lK-ULK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -743,7 +743,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAV-Zt-Y92">
-                                <rect key="frame" x="23" y="180" width="150" height="30"/>
+                                <rect key="frame" x="23" y="180" width="327" height="30"/>
                                 <state key="normal" title="Contact Us/ About Us"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3L7-vI-asi">
@@ -751,21 +751,35 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9lk-Hh-NXD"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="6CJ-P9-xQd" kind="showDetail" id="rxp-Rs-mGI"/>
+                                    <action selector="backtoMenu:" destination="chS-Mf-Sgm" eventType="touchUpInside" id="W5g-OY-bN5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icH-Mn-ndY">
+                                <rect key="frame" x="25" y="235" width="325" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="tUR-bP-emh"/>
+                                </constraints>
+                                <state key="normal" title="FaseID"/>
+                                <connections>
+                                    <action selector="FaceidAcction:" destination="chS-Mf-Sgm" eventType="touchUpInside" id="5Ao-kn-J02"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="icH-Mn-ndY" secondAttribute="trailing" constant="25" id="5Gh-5b-gUX"/>
                             <constraint firstItem="F5y-Ja-LlC" firstAttribute="bottom" secondItem="3L7-vI-asi" secondAttribute="bottom" constant="65" id="Blv-Ti-qY1"/>
+                            <constraint firstItem="icH-Mn-ndY" firstAttribute="top" secondItem="QAV-Zt-Y92" secondAttribute="bottom" constant="25" id="DJY-HS-zW8"/>
                             <constraint firstItem="NXQ-vc-pUx" firstAttribute="top" secondItem="F5y-Ja-LlC" secondAttribute="top" constant="50" id="GMX-d9-DAd"/>
                             <constraint firstItem="QAV-Zt-Y92" firstAttribute="top" secondItem="NXQ-vc-pUx" secondAttribute="bottom" constant="81" id="Htk-0E-CYv"/>
                             <constraint firstItem="NXQ-vc-pUx" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="100" id="UHJ-RQ-WMN"/>
                             <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="NXQ-vc-pUx" secondAttribute="trailing" constant="100" id="VtT-QZ-xB6"/>
+                            <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="QAV-Zt-Y92" secondAttribute="trailing" constant="25" id="b0U-hX-u6e"/>
                             <constraint firstItem="F5y-Ja-LlC" firstAttribute="trailing" secondItem="3L7-vI-asi" secondAttribute="trailing" constant="165" id="kBX-gP-Ywp"/>
                             <constraint firstItem="3L7-vI-asi" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="164" id="klV-7X-9Jl"/>
+                            <constraint firstItem="icH-Mn-ndY" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="25" id="nmd-Nl-Oue"/>
                             <constraint firstItem="QAV-Zt-Y92" firstAttribute="leading" secondItem="F5y-Ja-LlC" secondAttribute="leading" constant="23" id="qo3-HJ-irm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="F5y-Ja-LlC"/>
@@ -773,7 +787,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="feC-G1-X27" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3932" y="1610"/>
+            <point key="canvasLocation" x="1505" y="1873"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="c6O-Rx-x9E">
@@ -890,7 +904,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AW2-UD-pd4"/>
-        <segue reference="aNg-qx-PbD"/>
         <segue reference="TxB-yv-b9u"/>
         <segue reference="YfN-KJ-mhf"/>
         <segue reference="JGr-fI-tpx"/>
